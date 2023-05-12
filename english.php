@@ -99,6 +99,8 @@ $_ADDONLANG['admin_settings_allow_subdomains'] = "Allow Subdomains";
 $_ADDONLANG['admin_settings_client_template'] = "Client Template";
 $_ADDONLANG['admin_settings_client_reverse'] = "Reverse Management";
 
+$_ADDONLANG['admin_settings_client_toggle_dnssec'] = "Toggle DNSsec";
+
 $_ADDONLANG['admin_settings_disable_primary'] = "Disable Primary Menu Entry";
 $_ADDONLANG['admin_settings_disable_management'] = "Disable Management Menu Entry";
 $_ADDONLANG['admin_settings_disable_sidebar'] = "Disable Sidebars";
@@ -116,6 +118,8 @@ $_ADDONLANG['admin_settings_zone_limit_desc'] = "Limit the default maximum zones
 $_ADDONLANG['admin_settings_allow_subdomains_desc'] = "Allow clients to add subdomains as new zone.";
 $_ADDONLANG['admin_settings_client_template_desc'] = "Select to enable the default template for clients.";
 $_ADDONLANG['admin_settings_client_reverse_desc'] = "Allow clients to manage reverse hostnames for assigned IP adresses.";
+
+$_ADDONLANG['admin_settings_client_toggle_dnssec_desc'] = "Allow clients to enable/disable DNSsec.";
 
 $_ADDONLANG['admin_settings_disable_primary_desc'] = "Disable the DNS Management entry in the primary client area menu.";
 $_ADDONLANG['admin_settings_disable_management_desc'] = "Disable the DNS Management entry added to the sidebar of domain and productdetails pages.";
@@ -261,7 +265,6 @@ $_ADDONLANG['admin_msg_core_undetected_desc'] = "The SoluteDNS Core has not been
 $_ADDONLANG['admin_msg_license_expire_title'] = "License expires in %s days!";
 $_ADDONLANG['admin_msg_license_expire_desc'] = "Your license is about to expire, please make sure it's being renewed in time to avoid service disruption. Renewal may be automatic depending on your payment method.";
 
-
 $_ADDONLANG['admin_msg_license_not_activated_title'] = "SoluteDNS is not activated";
 $_ADDONLANG['admin_msg_license_not_activated_desc'] = "Please check your license as SoluteDNS is not activated.";
 
@@ -287,12 +290,14 @@ $_ADDONLANG['client_menu_reverse'] = "Reverse Records";
 $_ADDONLANG['client_menu_records'] = "Records";
 $_ADDONLANG['client_menu_dnssec'] = "DNSsec";
 
+$_ADDONLANG['client_menu_secure'] = "Enable DNSsec";
+$_ADDONLANG['client_menu_unsecure'] = "Disable DNSsec";
+
 // Client Manage
 $_ADDONLANG['client_manage_records_deleteselected'] = "Delete Selected";
 
 // Client Overview
 $_ADDONLANG['client_overview_addzonelimit'] = "You can add up to <strong>%s</strong> zones.";
-
 
 // Client Table
 $_ADDONLANG['client_table_First'] = "First";

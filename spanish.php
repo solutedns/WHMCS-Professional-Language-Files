@@ -98,6 +98,8 @@ $_ADDONLANG['admin_settings_allow_subdomains'] = "Allow Subdomain Zones";
 $_ADDONLANG['admin_settings_client_template'] = "Habilitar plantillas de cliente";
 $_ADDONLANG['admin_settings_client_reverse'] = "Gestión inversa";
 
+$_ADDONLANG['admin_settings_client_toggle_dnssec'] = "Cambiar DNSsec";
+
 $_ADDONLANG['admin_settings_disable_primary'] = "Deshabilitar menú principal";
 $_ADDONLANG['admin_settings_disable_management'] = "Deshabilitar menú de gestión";
 $_ADDONLANG['admin_settings_disable_sidebar'] = "Desactivar barras laterales.";
@@ -115,6 +117,8 @@ $_ADDONLANG['admin_settings_zone_limit_desc'] = "Limitar las zonas máximas perm
 $_ADDONLANG['admin_settings_allow_subdomains_desc'] = "Allow clients to add subdomains as new zone.";
 $_ADDONLANG['admin_settings_client_template_desc'] = "Seleccionar para habilitar plantilla por defecto para clientes.";
 $_ADDONLANG['admin_settings_client_reverse_desc'] = "Permitir a los clientes administrar nombres de host reversos asignados a direcciones IP";
+
+$_ADDONLANG['admin_settings_client_toggle_dnssec_desc'] = "Permitir a los clientes habilitar/deshabilitar DNSsec.";
 
 $_ADDONLANG['admin_settings_disable_primary_desc'] = "Desactivar la entrada de Administración DNS en el menú del área primaria de cliente.";
 $_ADDONLANG['admin_settings_disable_management_desc'] = "Desactivar la entrada de Administración DNS agregada a la barra lateral del dominio y páginas de detalles del producto.";
@@ -260,7 +264,6 @@ $_ADDONLANG['admin_msg_core_undetected_desc'] = "El Núcleo SoluteDNS no ha sido
 $_ADDONLANG['admin_msg_license_expire_title'] = "¡Su licencia expira en %s días!";
 $_ADDONLANG['admin_msg_license_expire_desc'] = "Su licencia está por expirar, por favor asegúrese de renovarla a tiempo para evitar una interrupción en el servicio. La renovación puede ser automática dependiendo de su método de pago.";
 
-
 $_ADDONLANG['admin_msg_license_not_activated_title'] = "¡SoluteDNS no está activado!";
 $_ADDONLANG['admin_msg_license_not_activated_desc'] = "Por favor verifique su licencia pues SoluteDNS no está activado";
 
@@ -286,12 +289,14 @@ $_ADDONLANG['client_menu_reverse'] = "DNS Inversa";
 $_ADDONLANG['client_menu_records'] = "Registros";
 $_ADDONLANG['client_menu_dnssec'] = "DNSsec";
 
+$_ADDONLANG['client_menu_secure'] = "Habilitar DNSsec";
+$_ADDONLANG['client_menu_unsecure'] = "Deshabilitar DNSsec";
+
 // Client Manage
 $_ADDONLANG['client_manage_records_deleteselected'] = "Borrar seleccionado";
 
 // Client Overview
 $_ADDONLANG['client_overview_addzonelimit'] = "Puede añadir hasta <strong>%s</strong> zonas.";
-
 
 // Client Table
 $_ADDONLANG['client_table_First'] = "Primero";
