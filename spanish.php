@@ -560,6 +560,9 @@ $_ADDONLANG['global_msg_dns_nozone_desc'] = "La Zona que está intentando admini
 $_ADDONLANG['global_msg_dns_nozonetemplate_desc'] = "Aplique un modelo para crear esta zona.";
 
 // Modals
+$_ADDONLANG['global_text_zone_save_title'] = "Quieres guardar los cambios?";
+$_ADDONLANG['global_text_zone_save_desc'] = "Presione \"Guardar cambios\" para guardar cualquier cambio que haya realizado";
+
 $_ADDONLANG['global_text_delete_record'] = "Está seguro de que desea borrar este registro?";
 $_ADDONLANG['global_text_delete_zone'] = "Está seguro de que desea borrar esta zona?";
 

@@ -561,6 +561,9 @@ $_ADDONLANG['global_msg_dns_nozone_desc'] = "The zone you are trying to manage d
 $_ADDONLANG['global_msg_dns_nozonetemplate_desc'] = "Apply an template to create this zone.";
 
 // Modals
+$_ADDONLANG['global_text_zone_save_title'] = "Do you want to save changes?";
+$_ADDONLANG['global_text_zone_save_desc'] = "Press \"Save Changes\" to save any changes you have made.";
+
 $_ADDONLANG['global_text_delete_record'] = "Are you sure you want to delete this record?";
 $_ADDONLANG['global_text_delete_zone'] = "Are you sure you want to delete this zone?";
 
