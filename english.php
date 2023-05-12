@@ -88,6 +88,7 @@ $_ADDONLANG['admin_settings_record_select_zero'] = "Last edited record time";
 // Setttings: Accessibility
 $_ADDONLANG['admin_settings_accessibility'] = "Accessibility";
 $_ADDONLANG['admin_settings_respect_registrar'] = "Respect Registrar Modules";
+$_ADDONLANG['admin_settings_respect_product'] = "Respect Products";
 $_ADDONLANG['admin_settings_force_dns'] = "Redirect DNS Pages";
 $_ADDONLANG['admin_settings_hide_soa'] = "Hide SOA Record";
 $_ADDONLANG['admin_settings_disable_ns'] = "Disable NS Record";
@@ -108,6 +109,7 @@ $_ADDONLANG['admin_settings_disable_management'] = "Disable Management Menu Entr
 $_ADDONLANG['admin_settings_disable_sidebar'] = "Disable Sidebars";
 
 $_ADDONLANG['admin_settings_respect_registrar_desc'] = "Respect the DNS Management feature of Registrar Modules.";
+$_ADDONLANG['admin_settings_respect_product_desc'] = "Do not create a zone for a domain ordered together with a product without active template.";
 $_ADDONLANG['admin_settings_force_dns_desc'] = "Redirect WHMCS DNS Management pages to SoluteDNS.";
 $_ADDONLANG['admin_settings_hide_soa_desc'] = "Hide the SOA record for users. If you show the SOA record it will always be disabled.";
 $_ADDONLANG['admin_settings_disable_ns_desc'] = "When ticked, the nameserver records will be disabled for users.";
