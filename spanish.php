@@ -85,6 +85,7 @@ $_ADDONLANG['admin_settings_record_select_zero'] = "Último tiempo de registro e
 // Setttings: Accessibility
 $_ADDONLANG['admin_settings_accessibility'] = "Accesibilidad";
 $_ADDONLANG['admin_settings_respect_registrar'] = "Respetar registro de módulos";
+$_ADDONLANG['admin_settings_force_dns'] = "Redirigir páginas DNS";
 $_ADDONLANG['admin_settings_hide_soa'] = "Ocultar registro SOA";
 $_ADDONLANG['admin_settings_disable_ns'] = "Deshabilitar registro NS";
 $_ADDONLANG['admin_settings_preset_ttl'] = "Usar campo TTL previamente establecido";
@@ -102,6 +103,7 @@ $_ADDONLANG['admin_settings_disable_management'] = "Deshabilitar menú de gesti�
 $_ADDONLANG['admin_settings_disable_sidebar'] = "Desactivar barras laterales.";
 
 $_ADDONLANG['admin_settings_respect_registrar_desc'] = "Respete la administración de funciones DNS de Registrar Módulos.";
+$_ADDONLANG['admin_settings_force_dns_desc'] = "Redirect WHMCS DNS Management pages to SoluteDNS.";
 $_ADDONLANG['admin_settings_hide_soa_desc'] = "Ocultar el registro SOA a usuarios. Si muestra el registro SOA siempre estará deshabilitado.";
 $_ADDONLANG['admin_settings_disable_ns_desc'] = "Cuando estén marcados, los registros de nombre del servidor estarán deshabilitados para los usuarios.";
 $_ADDONLANG['admin_settings_preset_ttl_desc'] = "Usar un menú desplegable TTL previamente establecido en lugar de un cuadro de texto.";
