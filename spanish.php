@@ -143,7 +143,11 @@ $_ADDONLANG['admin_settings_auto_create_desc'] = "Crear automáticamente una nue
 $_ADDONLANG['admin_settings_auto_delete_desc'] = "Borrar automáticamente las zonas de dominios y productos con el estado seleccionado.";
 $_ADDONLANG['admin_settings_auto_dns_management_desc'] = "Habilitar automáticamente la gestión DNS WHMCS para zonas creadas recientemente.";
 $_ADDONLANG['admin_settings_auto_todo_desc'] = "Añadir elementos para hacer automáticamente cuando se necesite atención del personal.";
-$_ADDONLANG['admin_settings_auto_health_desc'] = "Automáticamente desempeñar verificaciones de salud de zona.";
+
+$_ADDONLANG['admin_settings_health_self_check'] = "Comprueba si los servidores de nombres están configurados correctamente en todos los niveles.";
+$_ADDONLANG['admin_settings_health_consistency_check'] = "Comprueba si todos los servidores de nombres del clúster tienen el mismo número de serie SOA y tienen autoridad para la zona.";
+$_ADDONLANG['admin_settings_health_registry_check'] = "Comprueba si el registro y la zona tienen los mismos servidores de nombres.";
+$_ADDONLANG['admin_settings_health_record_check'] = "Comprueba si hay errores dentro de la zona y sus registros.";
 
 //  Nameserver
 $_ADDONLANG['admin_nameserver_database_details'] = "Base de datos primaria PowerDNS";
@@ -198,6 +202,7 @@ $_ADDONLANG['admin_system_dnsmanager_version'] = "DNS Manager Versión";
 $_ADDONLANG['admin_system_idn_support'] = "Soporte IDN";
 $_ADDONLANG['admin_system_cron_status'] = "Cron Estado";
 $_ADDONLANG['admin_system_system_logging'] = "Registro del sistema";
+$_ADDONLANG['admin_system_audit_logging'] = "Registro de auditoría";
 $_ADDONLANG['admin_system_maintenance_mode'] = "Modo de mantenimiento";
 $_ADDONLANG['admin_system_template'] = "Modelo";
 $_ADDONLANG['admin_system_admin_group'] = "Grupo Administrador";
@@ -207,6 +212,7 @@ $_ADDONLANG['admin_system_cron_status_tasks'] = "Tareas abiertas";
 
 $_ADDONLANG['admin_system_maintenance_mode_desc'] = "Intentar habilitar el modo de mantenimiento.";
 $_ADDONLANG['admin_system_system_logging_desc'] = "Intentar habilitar el registro del sistema (solo registra procesos automatizados).";
+$_ADDONLANG['admin_system_audit_logging_desc'] = "Marque para habilitar el registro de auditoría en la configuración del núcleo.";
 $_ADDONLANG['admin_system_template_desc'] = "El modelo que desea que SoluteDNS utilice. ¡Sea cuidadoso dado que esto puede impedir la accesibilidad de administrador!";
 $_ADDONLANG['admin_system_admin_group_desc'] = "Límite de acceso para preferencias de SoluteDNS para seleccionar grupo administrador.";
 

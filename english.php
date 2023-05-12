@@ -144,7 +144,11 @@ $_ADDONLANG['admin_settings_auto_create_desc'] = "Automatically create a new zon
 $_ADDONLANG['admin_settings_auto_delete_desc'] = "Automatically delete zones of domains and products with selected state:";
 $_ADDONLANG['admin_settings_auto_dns_management_desc'] = "Automatically enable WHMCS DNS Management for newly created zones.";
 $_ADDONLANG['admin_settings_auto_todo_desc'] = "Automatically add to-do items when staff attention is required.";
-$_ADDONLANG['admin_settings_auto_health_desc'] = "Automatically perform zone health checks.";
+
+$_ADDONLANG['admin_settings_health_self_check'] = "Checks if the nameservers are set correctly on all levels.";
+$_ADDONLANG['admin_settings_health_consistency_check'] = "Checks if all nameservers in the cluster have the same SOA serial and are authoritative for the zone.";
+$_ADDONLANG['admin_settings_health_registry_check'] = "Checks if the registry and the zone have the same nameservers.";
+$_ADDONLANG['admin_settings_health_record_check'] = "Checks for errors within the zone and its records.";
 
 //  Nameserver
 $_ADDONLANG['admin_nameserver_database_details'] = "Primary PowerDNS Database";
@@ -199,6 +203,7 @@ $_ADDONLANG['admin_system_dnsmanager_version'] = "DNS Manager Version";
 $_ADDONLANG['admin_system_idn_support'] = "IDN Support";
 $_ADDONLANG['admin_system_cron_status'] = "Cron Status";
 $_ADDONLANG['admin_system_system_logging'] = "System Logging";
+$_ADDONLANG['admin_system_audit_logging'] = "Audit Logging";
 $_ADDONLANG['admin_system_maintenance_mode'] = "Maintenance Mode";
 $_ADDONLANG['admin_system_template'] = "Template";
 $_ADDONLANG['admin_system_admin_group'] = "Admin Group";
@@ -208,6 +213,7 @@ $_ADDONLANG['admin_system_cron_status_tasks'] = "Open tasks:";
 
 $_ADDONLANG['admin_system_maintenance_mode_desc'] = "Tick to enable maintenance mode.";
 $_ADDONLANG['admin_system_system_logging_desc'] = "Tick to enable system logging for automated processes.";
+$_ADDONLANG['admin_system_audit_logging_desc'] = "Tick to enable audit logging at Core level.";
 $_ADDONLANG['admin_system_template_desc'] = "The template you want SoluteDNS to use. Be careful as this can impede admin accessibility!";
 $_ADDONLANG['admin_system_admin_group_desc'] = "Limit access to SoluteDNS settings to selected admin group.";
 
