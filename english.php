@@ -327,7 +327,7 @@ $_ADDONLANG['client_table_overview_infoEmpty'] = "Showing 0 to 0 of 0 domains";
 $_ADDONLANG['client_table_overview_infoFiltered'] = "(filtered from _MAX_ total domains)";
 $_ADDONLANG['client_table_overview_lengthMenu'] = "Show _MENU_ entries";
 
-$_ADDONLANG['client_table_records_emptytable'] = "<h3>Add <button type=\"button\" class=\"btn btn-success btn-xs\" data-toggle=\"modal\" data-target=\"#dialog_addRecord\" title=\"Add Record\"><span class=\"glyphicon glyphicon-plus\" aria-hidden=\"true\"></span></button> the first record!</h3>";
+$_ADDONLANG['client_table_records_emptytable'] = "<h3>Add <button type=\"button\" class=\"btn btn-success btn-xs\" data-toggle=\"modal\" data-target=\"#dialog_addRecord\" title=\"Add Record\"><span class=\"fas fa-plus\" aria-hidden=\"true\"></span></button> the first record!</h3>";
 
 $_ADDONLANG['client_table_reverse_emptytable'] = "No IP Addresses Found";
 
@@ -385,6 +385,7 @@ $_ADDONLANG['global_status_unlimited'] = "Unlimited";
 $_ADDONLANG['global_status_na'] = "N/A";
 $_ADDONLANG['global_status_noneavailable'] = "None Available";
 $_ADDONLANG['global_status_noneregistered'] = "None Registered";
+$_ADDONLANG['global_status_default'] = "Default";
 
 // DNS Management
 $_ADDONLANG['global_dns_id'] = "ID";

@@ -326,7 +326,7 @@ $_ADDONLANG['client_table_overview_infoEmpty'] = "Sono visualizzati i domini da 
 $_ADDONLANG['client_table_overview_infoFiltered'] = "(da _MAX_ domini totali filtrati)";
 $_ADDONLANG['client_table_overview_lengthMenu'] = "Mostra _MENU_ inserimenti";
 
-$_ADDONLANG['client_table_records_emptytable'] = "Translate words: Aggiungi il primo record! Aggiungi record";
+$_ADDONLANG['client_table_records_emptytable'] = "<h3>Aggiungi <button type=\"button\" class=\"btn btn-success btn-xs\" data-toggle=\"modal\" data-target=\"#dialog_addRecord\" title=\"Agregar Registro\"><span class=\"fas fa-plus\" aria-hidden=\"true\"></span></button> il primo record! Aggiungi record!</h3>";
 
 $_ADDONLANG['client_table_reverse_emptytable'] = "Nessun Indirizzo IP Trovato";
 
@@ -384,6 +384,7 @@ $_ADDONLANG['global_status_unlimited'] = "Illimitato";
 $_ADDONLANG['global_status_na'] = "N/A";
 $_ADDONLANG['global_status_noneavailable'] = "Nessuno disponibile";
 $_ADDONLANG['global_status_noneregistered'] = "Nessun registrato";
+$_ADDONLANG['global_status_default'] = "Predefinito";
 
 // DNS Management
 $_ADDONLANG['global_dns_id'] = "ID";
