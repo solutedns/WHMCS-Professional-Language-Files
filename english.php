@@ -233,6 +233,7 @@ $_ADDONLANG['admin_manage_records_importzone'] = "Import Zone";
 $_ADDONLANG['admin_manage_records_exportzone'] = "Export Zone";
 $_ADDONLANG['admin_manage_records_deleterecord'] = "Delete Record";
 $_ADDONLANG['admin_manage_records_deleteselected'] = "Delete Selected";
+$_ADDONLANG['admin_manage_records_unassignzone'] = "Unassign Zone";
 $_ADDONLANG['admin_manage_records_deletezone'] = "Delete Zone";
 
 $_ADDONLANG['admin_manage_dnssec_add'] = "Add Key";
@@ -321,6 +322,9 @@ $_ADDONLANG['client_msg_maintenance_desc'] = "DNS Management is temporary unavai
 
 $_ADDONLANG['client_msg_access_denied_title'] = "Access Denied";
 $_ADDONLANG['client_msg_access_denied_desc'] = "You do not have sufficient permissions to access this zone!";
+
+$_ADDONLANG['client_msg_suspended_title'] = "Zone Suspended";
+$_ADDONLANG['client_msg_suspended_desc'] = "This zone has been disabled. Records are no longer visible to the public!";
 
 $_ADDONLANG['client_msg_system_error_title'] = "Unable to change DNS settings!";
 $_ADDONLANG['client_msg_system_error_desc'] = "At this time you are unable to change the DNS settings of your domain. Please try again later. If this problem remains please contact support!";
@@ -479,6 +483,9 @@ $_ADDONLANG['global_msg_dns_record_added_desc'] = "New record has been added suc
 $_ADDONLANG['global_msg_dns_record_edited_title'] = "Record has been edited";
 $_ADDONLANG['global_msg_dns_record_edited_desc'] = "Changed records have been saved successfully.";
 
+$_ADDONLANG['global_msg_dns_record_toggled_title'] = "Record has been %s";
+$_ADDONLANG['global_msg_dns_record_toggled_desc'] = "The record has been %s successfully.";
+
 $_ADDONLANG['global_msg_dns_record_deleted_title'] = "Record has been deleted";
 $_ADDONLANG['global_msg_dns_record_deleted_desc'] = "The record has been deleted successfully.";
 
@@ -526,6 +533,9 @@ $_ADDONLANG['global_msg_dns_template_apply_desc'] = "The selected DNS template h
 
 $_ADDONLANG['global_msg_dns_zone_created_title'] = "Zone %s has been created";
 $_ADDONLANG['global_msg_dns_zone_created_desc'] = "The zone %s has been created successfully.";
+
+$_ADDONLANG['global_msg_dns_zone_unassigned_title'] = "Zone %s has been unassigned";
+$_ADDONLANG['global_msg_dns_zone_unassigned_desc'] = "The zone %s has been unassigned successfully.";
 
 $_ADDONLANG['global_msg_dns_zone_deleted_title'] = "Zone %s has been deleted";
 $_ADDONLANG['global_msg_dns_zone_deleted_desc'] = "The zone %s has been deleted successfully.";

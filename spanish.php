@@ -232,6 +232,7 @@ $_ADDONLANG['admin_manage_records_importzone'] = "Importar zona";
 $_ADDONLANG['admin_manage_records_exportzone'] = "Exportar zona";
 $_ADDONLANG['admin_manage_records_deleterecord'] = "Borrar registro";
 $_ADDONLANG['admin_manage_records_deleteselected'] = "Borrar seleccionado";
+$_ADDONLANG['admin_manage_records_unassignzone'] = "Desasignar zona";
 $_ADDONLANG['admin_manage_records_deletezone'] = "Borrar zona";
 
 $_ADDONLANG['admin_manage_dnssec_add'] = "Añadir clave";
@@ -315,11 +316,14 @@ $_ADDONLANG['client_table_records_emptytable'] = "<h3>Añadir <button type=\"but
 $_ADDONLANG['client_table_reverse_emptytable'] = "No se han encontrado direcciones IP";
 
 // Client messages
-$_ADDONLANG['client_msg_maintenance_title'] = "La gestion DNS no está disponible!";
+$_ADDONLANG['client_msg_maintenance_title'] = "La gestion DNS no está disponible";
 $_ADDONLANG['client_msg_maintenance_desc'] = "La gestión DNS no está disponible temporalmente debido a mantenimiento. Por favor intente de nuevo más tarde!";
 
-$_ADDONLANG['client_msg_access_denied_title'] = "Accceso denegado!";
+$_ADDONLANG['client_msg_access_denied_title'] = "Accceso denegado";
 $_ADDONLANG['client_msg_access_denied_desc'] = "No tiene suficientes permisos para acceder a esta zona!";
+
+$_ADDONLANG['client_msg_suspended_title'] = "Zona suspendida";
+$_ADDONLANG['client_msg_suspended_desc'] = "Esta zona ha sido deshabilitada. ¡Los registros ya no son visibles para el público!";
 
 $_ADDONLANG['client_msg_system_error_title'] = "Imposible cambiar los ajustes DNS!";
 $_ADDONLANG['client_msg_system_error_desc'] = "En este momento es imposible cambiar cualquier ajuste DNS de su domino. Por favor intente de nuevo más tarde. Si este problema persiste por favor contacte con soporte!";
@@ -478,6 +482,9 @@ $_ADDONLANG['global_msg_dns_record_added_desc'] = "Se ha añadido un nuevo regis
 $_ADDONLANG['global_msg_dns_record_edited_title'] = "El registro ha sido editado!";
 $_ADDONLANG['global_msg_dns_record_edited_desc'] = "Los registros cambiados han sido guardados con éxito.";
 
+$_ADDONLANG['global_msg_dns_record_toggled_title'] = "El registro ha sido %s!";
+$_ADDONLANG['global_msg_dns_record_toggled_desc'] = "El registro ha sido %s con éxito.";
+
 $_ADDONLANG['global_msg_dns_record_deleted_title'] = "El registro ha sido borrado!";
 $_ADDONLANG['global_msg_dns_record_deleted_desc'] = "El registro ha sido borrado con éxito.";
 
@@ -525,6 +532,9 @@ $_ADDONLANG['global_msg_dns_template_apply_desc'] = "El modelo DNS seleccionado 
 
 $_ADDONLANG['global_msg_dns_zone_created_title'] = "Zona %s creada";
 $_ADDONLANG['global_msg_dns_zone_created_desc'] = "La Zona %s ha sido creada exitosamente.";
+
+$_ADDONLANG['global_msg_dns_zone_unassigned_title'] = "Zona %s sin asignar";
+$_ADDONLANG['global_msg_dns_zone_unassigned_desc'] = "La zona %s ha sido sin asignar exitosamente.";
 
 $_ADDONLANG['global_msg_dns_zone_deleted_title'] = "Zona %s eliminada";
 $_ADDONLANG['global_msg_dns_zone_deleted_desc'] = "La zona %s ha sido eliminada exitosamente.";
