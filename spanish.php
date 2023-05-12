@@ -194,6 +194,7 @@ $_ADDONLANG['admin_tools_health_option_report'] = "Informe";
 // System
 $_ADDONLANG['admin_system_module_version'] = "Módulo Versión";
 $_ADDONLANG['admin_system_core_version'] = "Core Versión";
+$_ADDONLANG['admin_system_dnsmanager_version'] = "DNS Manager Versión";
 $_ADDONLANG['admin_system_idn_support'] = "Soporte IDN";
 $_ADDONLANG['admin_system_cron_status'] = "Cron Estado";
 $_ADDONLANG['admin_system_system_logging'] = "Registro del sistema";
@@ -285,6 +286,9 @@ $_ADDONLANG['admin_msg_license_not_activated_desc'] = "Por favor verifique su li
 
 $_ADDONLANG['admin_msg_ns_unavailable_title'] = "¡Nombre de servidor no disponible!";
 $_ADDONLANG['admin_msg_ns_unavailable_desc'] = "No se pudo conectar con el nombre del servidor configurado, por favor verifique sus preferencias de nombre del servidor.";
+
+$_ADDONLANG['admin_msg_ns_unconfigured_title'] = "Configuración de nameserver no válida o faltante";
+$_ADDONLANG['admin_msg_ns_unconfigured_desc'] = "Revise sus nameserver configurados, ya que parece que están incompletos o faltan.";
 
 $_ADDONLANG['admin_msg_core_db_error_title'] = "Ha ocurrido un error de base de datos";
 $_ADDONLANG['admin_msg_core_ssh_error_title'] = "Ha ocurrido un error de SSH";
@@ -528,6 +532,9 @@ $_ADDONLANG['global_msg_dns_sec_reset_desc'] = "Las claves DNSsec han sido reset
 $_ADDONLANG['global_msg_dns_sec_unset_title'] = "DNSsec desmontado";
 $_ADDONLANG['global_msg_dns_sec_unset_desc'] = "El DNSsec ha sido desmontado en esta sona";
 
+$_ADDONLANG['global_msg_dns_sec_unset_queue_title'] = "Eliminación de DNSsec iniciada";
+$_ADDONLANG['global_msg_dns_sec_unset_queue_desc'] = "Se ha iniciado la eliminación de la clave DNSsec. Las teclas permanecerán visibles hasta que se complete este proceso.";
+
 $_ADDONLANG['global_msg_dns_sec_addkey_title'] = "Clave de DNSsec agregada";
 $_ADDONLANG['global_msg_dns_sec_addkey_desc'] = "Una nueva clave de DNSsec ha sido agregada exitosamente.";
 
@@ -604,6 +611,8 @@ $_ADDONLANG['global_validation_DOMAIN_NOT_IN_NAME'] = "El campo de nombre debe c
 $_ADDONLANG['global_validation_ZONE_NAME_INVALID'] = "El Nombre de la zona no es un FQHN.";
 $_ADDONLANG['global_validation_INVALID_FQHN'] = "Este registro debe contener un nombre de host válido, no debe acabar en punto (.).";
 $_ADDONLANG['global_validation_NOT_UNIQUE'] = "Ya existe un registro similar.";
+$_ADDONLANG['global_validation_NO_UNIQUE_NAME'] = "Ya existe un registro con un nombre similar, mientras que este tipo de registro requiere un nombre único.";
+$_ADDONLANG['global_validation_EXISTING_UNIQUE_NAME'] = "Ya existe un registro que requiere un nombre único.";
 $_ADDONLANG['global_validation_NON_ALIAS_TARGET'] = "No pudere referir un registro NS o MX a un registro CNAME.";
 $_ADDONLANG['global_validation_TYPE_EMPTY'] = "El tipo de registro no puede estar vacío.";
 $_ADDONLANG['global_validation_INVALID_TYPE'] = "El tipo de registro no se reconoce.";

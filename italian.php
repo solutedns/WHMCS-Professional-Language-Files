@@ -194,6 +194,7 @@ $_ADDONLANG['admin_tools_health_option_report'] = "Rapporto";
 // System
 $_ADDONLANG['admin_system_module_version'] = "Versione Module";
 $_ADDONLANG['admin_system_core_version'] = "Versione Core";
+$_ADDONLANG['admin_system_dnsmanager_version'] = "Versione DNS Manager";
 $_ADDONLANG['admin_system_idn_support'] = "Supporto IDN";
 $_ADDONLANG['admin_system_cron_status'] = "Stato Cron";
 $_ADDONLANG['admin_system_system_logging'] = "Log di Sistema";
@@ -285,6 +286,9 @@ $_ADDONLANG['admin_msg_license_not_activated_desc'] = "Si prega di verificare la
 
 $_ADDONLANG['admin_msg_ns_unavailable_title'] = "Nameserver non disponibile!";
 $_ADDONLANG['admin_msg_ns_unavailable_desc'] = "Impossibile connettersi al server dei nomi configurato, controllare le impostazioni del server dei nomi.";
+
+$_ADDONLANG['admin_msg_ns_unconfigured_title'] = "Configurazione del nameserver non valida o mancante";
+$_ADDONLANG['admin_msg_ns_unconfigured_desc'] = "Si prega di rivedere i nameserver configurati poiché sembrano incompleti o mancanti.";
 
 $_ADDONLANG['admin_msg_core_db_error_title'] = "Si è verificato un errore del database";
 $_ADDONLANG['admin_msg_core_ssh_error_title'] = "Errore SSH";
@@ -528,6 +532,9 @@ $_ADDONLANG['global_msg_dns_sec_reset_desc'] = "Le chiavi DNSsec sono state ripr
 $_ADDONLANG['global_msg_dns_sec_unset_title'] = "DNSsec Unset";
 $_ADDONLANG['global_msg_dns_sec_unset_desc'] = "DNSsec è stato disattivato per questa zona.";
 
+$_ADDONLANG['global_msg_dns_sec_unset_queue_title'] = "Rimozione DNSsec avviata";
+$_ADDONLANG['global_msg_dns_sec_unset_queue_desc'] = "È stata avviata la rimozione della chiave DNSsec. Le chiavi rimarranno visibili fino al completamento di questo processo.";
+
 $_ADDONLANG['global_msg_dns_sec_addkey_title'] = "Chiave DNSsec aggiunta";
 $_ADDONLANG['global_msg_dns_sec_addkey_desc'] = "Una nuova chiave DNSsec è stata aggiunta correttamente.";
 
@@ -604,6 +611,8 @@ $_ADDONLANG['global_validation_DOMAIN_NOT_IN_NAME'] = "Il campo nome deve conten
 $_ADDONLANG['global_validation_ZONE_NAME_INVALID'] = "Il nome della zona non è un FQHN.";
 $_ADDONLANG['global_validation_INVALID_FQHN'] = "Questo record deve contenere un nome host valido, non terminare con un punto (.).";
 $_ADDONLANG['global_validation_NOT_UNIQUE'] = "Sono presenti record simili.";
+$_ADDONLANG['global_validation_NO_UNIQUE_NAME'] = "Esiste già un record con un nome simile mentre questo tipo di record richiede un nome univoco.";
+$_ADDONLANG['global_validation_EXISTING_UNIQUE_NAME'] = "Esiste già un record che richiede un nome univoco.";
 $_ADDONLANG['global_validation_NON_ALIAS_TARGET'] = "Non puoi associare un record NS o MX a un record CNAME.";
 $_ADDONLANG['global_validation_TYPE_EMPTY'] = "Il tipo di campo deve essere specificato.";
 $_ADDONLANG['global_validation_INVALID_TYPE'] = "Il tipo di campo non è riconosciuto.";

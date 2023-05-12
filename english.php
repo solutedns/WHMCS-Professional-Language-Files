@@ -195,6 +195,7 @@ $_ADDONLANG['admin_tools_health_option_report'] = "Report";
 // System
 $_ADDONLANG['admin_system_module_version'] = "Module Version";
 $_ADDONLANG['admin_system_core_version'] = "Core Version";
+$_ADDONLANG['admin_system_dnsmanager_version'] = "DNS Manager Version";
 $_ADDONLANG['admin_system_idn_support'] = "IDN Support";
 $_ADDONLANG['admin_system_cron_status'] = "Cron Status";
 $_ADDONLANG['admin_system_system_logging'] = "System Logging";
@@ -286,6 +287,9 @@ $_ADDONLANG['admin_msg_license_not_activated_desc'] = "Please check your license
 
 $_ADDONLANG['admin_msg_ns_unavailable_title'] = "Nameserver Unavailable!";
 $_ADDONLANG['admin_msg_ns_unavailable_desc'] = "Could not connect to the configured nameserver, please check your nameserver settings.";
+
+$_ADDONLANG['admin_msg_ns_unconfigured_title'] = "Invalid or missing nameserver configuration";
+$_ADDONLANG['admin_msg_ns_unconfigured_desc'] = "Please review your configured nameservers as it seems to be incomplete or missing.";
 
 $_ADDONLANG['admin_msg_core_db_error_title'] = "Database Error Occurred";
 $_ADDONLANG['admin_msg_core_ssh_error_title'] = "SSH Error Occurred";
@@ -529,6 +533,9 @@ $_ADDONLANG['global_msg_dns_sec_reset_desc'] = "The DNSsec keys have been reset.
 $_ADDONLANG['global_msg_dns_sec_unset_title'] = "DNSsec Unset";
 $_ADDONLANG['global_msg_dns_sec_unset_desc'] = "DNSsec has been unset for this zone.";
 
+$_ADDONLANG['global_msg_dns_sec_unset_queue_title'] = "DNSsec Removal Initiated";
+$_ADDONLANG['global_msg_dns_sec_unset_queue_desc'] = "DNSsec key removal has been initiated. The keys will remain visible until this process is completed.";
+
 $_ADDONLANG['global_msg_dns_sec_addkey_title'] = "DNSsec Key Added";
 $_ADDONLANG['global_msg_dns_sec_addkey_desc'] = "A new DNSsec key has been added successfully.";
 
@@ -542,7 +549,7 @@ $_ADDONLANG['global_msg_dns_sec_deletekey_title'] = "DNSsec Key Deleted";
 $_ADDONLANG['global_msg_dns_sec_deletekey_desc'] = "A DNSsec key has been deleted successfully.";
 
 $_ADDONLANG['global_msg_dns_health_reload_title'] = "Health Status Renewed";
-$_ADDONLANG['global_msg_dns_health_reload_desc'] = "The cached health status has been renwed.";
+$_ADDONLANG['global_msg_dns_health_reload_desc'] = "The cached health status has been renewed.";
 
 $_ADDONLANG['global_msg_dns_template_apply_title'] = "DNS Template Applied";
 $_ADDONLANG['global_msg_dns_template_apply_desc'] = "The selected DNS template has been applied to this zone.";
@@ -605,6 +612,8 @@ $_ADDONLANG['global_validation_DOMAIN_NOT_IN_NAME'] = "The name field must conta
 $_ADDONLANG['global_validation_ZONE_NAME_INVALID'] = "Zone name is not an FQHN.";
 $_ADDONLANG['global_validation_INVALID_FQHN'] = "This record must contain a valid hostname, do not end with a dot (.).";
 $_ADDONLANG['global_validation_NOT_UNIQUE'] = "Similar record already exists.";
+$_ADDONLANG['global_validation_NO_UNIQUE_NAME'] = "A record with a similar name already exists while this record type requires a unique name.";
+$_ADDONLANG['global_validation_EXISTING_UNIQUE_NAME'] = "A record who requires a unique name already exists.";
 $_ADDONLANG['global_validation_NON_ALIAS_TARGET'] = "You cannot refer a NS or MX record to a CNAME record.";
 $_ADDONLANG['global_validation_TYPE_EMPTY'] = "Record type cannot be empty.";
 $_ADDONLANG['global_validation_INVALID_TYPE'] = "Record type is not recognized.";
