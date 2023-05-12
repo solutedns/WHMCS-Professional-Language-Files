@@ -50,6 +50,8 @@ $_ADDONLANG['admin_overview_zone_type'] = "Zone Type";
 $_ADDONLANG['admin_overview_select_type'] = "Select Type";
 $_ADDONLANG['admin_overview_ip_zone'] = "IP Address or Zone Name";
 
+$_ADDONLANG['admin_overview_reset_table'] = "Reset Overview";
+
 
 // Settings: Template
 $_ADDONLANG['admin_settings_template_settings'] = "Template Settings";
@@ -178,6 +180,16 @@ $_ADDONLANG['admin_nameserver_auto_dnssec_desc'] = "Automatically secure newly c
 $_ADDONLANG['admin_nameserver_set_nsec3_desc'] = "Use NSEC3 instead of the default NSEC.";
 $_ADDONLANG['admin_nameserver_show_client_desc'] = "Show DNSsec keys to client.";
 
+// Tools
+$_ADDONLANG['admin_tools_title_mutation'] = "Mutation Dashboard";
+$_ADDONLANG['admin_tools_title_health'] = "Health Dashboard";
+
+$_ADDONLANG['admin_tools_health_stats_zones'] = "Zones with health issues";
+$_ADDONLANG['admin_tools_health_stats_types'] = "Registered health issue types";
+$_ADDONLANG['admin_tools_health_option_open'] = "Open Issues";
+$_ADDONLANG['admin_tools_health_option_all'] = "All Zones";
+$_ADDONLANG['admin_tools_health_option_report'] = "Report";
+
 // System
 $_ADDONLANG['admin_system_module_version'] = "Module Version";
 $_ADDONLANG['admin_system_core_version'] = "Core Version";
@@ -255,6 +267,7 @@ $_ADDONLANG['admin_manage_text_importzoneoverwrite'] = "Overwrite current zone, 
 $_ADDONLANG['admin_console_title_updater'] = "Updater";
 $_ADDONLANG['admin_console_title_mutation'] = "Mutation Tool";
 $_ADDONLANG['admin_console_title_index'] = "Index Nameserver";
+$_ADDONLANG['admin_console_title_health'] = "Health Checker";
 
 // Admin Messages
 $_ADDONLANG['admin_msg_maintenance_title'] = "Maintenance Mode Activated";

@@ -49,6 +49,8 @@ $_ADDONLANG['admin_overview_zone_type'] = "Tipologia Zona";
 $_ADDONLANG['admin_overview_select_type'] = "Seleziona tipologia";
 $_ADDONLANG['admin_overview_ip_zone'] = "Indirizzo IP o Nome Zona";
 
+$_ADDONLANG['admin_overview_reset_table'] = "Reimposta Panoramica";
+
 
 // Settings: Template
 $_ADDONLANG['admin_settings_template_settings'] = "Impostazioni Template ";
@@ -177,6 +179,16 @@ $_ADDONLANG['admin_nameserver_auto_dnssec_desc'] = "Proteggi Automaticamente le 
 $_ADDONLANG['admin_nameserver_set_nsec3_desc'] = "Utilizza NSEC3 invece del predefinito NSEC.";
 $_ADDONLANG['admin_nameserver_show_client_desc'] = "Mostra le chiavi DNSsec al cliente.";
 
+// Tools
+$_ADDONLANG['admin_tools_title_mutation'] = "Mutazione Cruscotto";
+$_ADDONLANG['admin_tools_title_health'] = "Salute Cruscotto";
+
+$_ADDONLANG['admin_tools_health_stats_zones'] = "Zone con problemi di salute";
+$_ADDONLANG['admin_tools_health_stats_types'] = "Tipi di problemi di salute registrati";
+$_ADDONLANG['admin_tools_health_option_open'] = "Questioni aperte";
+$_ADDONLANG['admin_tools_health_option_all'] = "Tutte le zone";
+$_ADDONLANG['admin_tools_health_option_report'] = "Rapporto";
+
 // System
 $_ADDONLANG['admin_system_module_version'] = "Versione Module";
 $_ADDONLANG['admin_system_core_version'] = "Versione Core";
@@ -254,6 +266,7 @@ $_ADDONLANG['admin_manage_text_importzoneoverwrite'] = "Sovrascrivi l'zona corre
 $_ADDONLANG['admin_console_title_updater'] = "Aggiornatore";
 $_ADDONLANG['admin_console_title_mutation'] = "Strumento di Mutazione";
 $_ADDONLANG['admin_console_title_index'] = "Indice Nameserver";
+$_ADDONLANG['admin_console_title_health'] = "Controllo Sanitario";
 
 // Admin Messages
 $_ADDONLANG['admin_msg_maintenance_title'] = "Modalità Manutenzione Attivata";
